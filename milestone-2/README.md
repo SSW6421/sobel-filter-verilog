@@ -38,8 +38,12 @@ milestone-2/
 │   ├── line_buffer.v         # Single-row FIFO buffer for window formation
 │   ├── output_row_buffer.v   # Row buffer for split-screen pipeline sync
 │   └── image_rom.v           # Xilinx Block RAM ROM (image storage)
+├── vga-setup-test/
+│   ├── vga_test.v            # Standalone VGA sanity-check (colour pattern)
+│   └── README.md             # How to use the test
 ├── generate_hex.py           # Converts PNG image → HEX for ROM init
-└── input_image.png           # Sample image loaded into ROM
+├── input_image.png           # Sample image loaded into ROM
+└── report.pdf                # Full project report (E/21/420)
 ```
 
 ---
